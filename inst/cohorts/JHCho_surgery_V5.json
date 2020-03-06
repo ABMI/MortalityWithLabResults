@@ -1,0 +1,1127 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19039298,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36453",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sevoflurane",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Invalid",
+            "CONCEPT_ID": 40100593,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "379471",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sevoflurane Inhalant Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "D"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19002770,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "27340",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "desflurane",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Invalid",
+            "CONCEPT_ID": 19002793,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "345872",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "desflurane 1 ML/ML",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "D"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19002796,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "562366",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "desflurane 1000 MG/ML Inhalation Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Invalid",
+            "CONCEPT_ID": 40054982,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "377304",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "desflurane Inhalant Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "D"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 782043,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6026",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Isoflurane",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 782046,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "542346",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Isoflurane 999 MG/ML",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 782047,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "542347",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Isoflurane 999 MG/ML Inhalation Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Invalid",
+            "CONCEPT_ID": 40050254,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "241871",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Isoflurane Inhalant Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "D"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 743196,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3920",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Enflurane",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Invalid",
+            "CONCEPT_ID": 45776822,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "1549677",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Enflurane 999 MG/ML",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "D"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45776823,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1549678",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Enflurane 1000 MG/ML Inhalation Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Invalid",
+            "CONCEPT_ID": 40042723,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "378987",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Enflurane Inhalant Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "D"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "flurane",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4336464,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232717009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Coronary artery bypass graft",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4284104,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "67166004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortocoronary artery bypass graft",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4106548,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "29819009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortocoronary bypass of one coronary artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4305852,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "418824004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Off-pump coronary artery bypass",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4081578,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "24088005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Coronary artery atherectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37017419,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "713689002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Repair of coronary artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4150819,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "31413008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Operative procedure on coronary artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4203153,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "53059001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Replacement of mitral valve",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4095407,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "26212005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Replacement of aortic valve",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4312194,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "85830006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Repair of heart valve",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4337202,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232882002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Repair of atrioventricular valve",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4293619,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "384643000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Repair of tricuspid valve",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4338315,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232778005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Tricuspid valve operation",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4337060,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232740008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mitral valve operation",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4297235,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "384641003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Repair of mitral valve",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4336593,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232777000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Replacement of implanted mitral valve",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4098191,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25236004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Replacement of tricuspid valve",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4339741,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232842009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Replacement of implanted aortic valve",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4230846,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "357575008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Repair of aortic valve without replacement",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4010257,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "112816004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Valvuloplasty of aortic valve",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4042676,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "118802002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Procedure on pericardium",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4149930,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "309849004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pericardiocentesis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4268185,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "62858004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Operation on pericardium",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4238653,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "58380004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pericardiostomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4275564,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "64915003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Operation on heart",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2110581,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "62145",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Cranioplasty for skull defect with reparative brain surgery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4042673,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "118797008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Procedure on heart",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4163951,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "29303009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Electrocardiographic procedure",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4043201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "118885003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Procedure on brain",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "cardiac or brain surgery",
+      "id": 1
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45888085,
+          "STANDARD_CONCEPT": "C",
+          "CONCEPT_CODE": "1003143",
+          "VOCABULARY_ID": "CPT4",
+          "CONCEPT_NAME": "Surgery",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Classification",
+          "CONCEPT_CLASS_ID": "CPT4 Hierarchy",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Surgery",
+      "id": 2
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4322471,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "70536003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transplant of kidney",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2109321,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "47135",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Liver allotransplantation, orthotopic, partial or whole, from cadaver or living donor, any age",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4208341,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "313039003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Solid organ transplant",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "transplant",
+      "id": 3
+    },
+    {
+      "expression": {"items": []},
+      "name": "cadaveric",
+      "id": 4
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 753626,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "8782",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "Propofol",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "propofol",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19003953,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "68139",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Rocuronium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19012598,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "71535",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Vecuronium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 836208,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10154",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Succinylcholine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Muscle relaxant\n",
+      "id": 6
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": true,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 6,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Muscle relaxant use",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 7,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 7,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ProcedureOccurrence": {
+            "ProcedureType": null,
+            "CorrelatedCriteria": null,
+            "CodesetId": 1,
+            "ProcedureSourceConcept": null,
+            "Quantity": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "ProcedureTypeExclude": false,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Modifier": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "cardiac or brain surgery",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 7,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 7,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ProcedureOccurrence": {
+            "ProcedureType": null,
+            "CorrelatedCriteria": null,
+            "CodesetId": 3,
+            "ProcedureSourceConcept": null,
+            "Quantity": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "ProcedureTypeExclude": false,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Modifier": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "transplant",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "DrugSourceConcept": null,
+        "CodesetId": 0,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "DrugSourceConcept": null,
+        "CodesetId": 5,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

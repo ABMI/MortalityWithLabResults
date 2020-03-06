@@ -1,0 +1,27 @@
+Package: MortalityWithLabResults
+Type: Package
+Title: In-hospital mortality prediction model with lab test results
+Version: 0.0.2
+Date: 2020-03-03
+Author: Jaehyeong Cho [aut, cre]
+Maintainer: Jaehyeong Cho <boyinai03@gmail.com>
+Description: A description of the study
+License: Apache License 2.0
+Depends:
+  R (>= 3.3.0), 
+  DatabaseConnector (>= 1.11.4)
+Imports:
+  FeatureExtraction (>= 2.0.0),
+  SqlRender,
+  Cyclops (>= 1.2.2),
+  PatientLevelPrediction (>= 3.0.0),
+  ggplot2,
+  gridExtra,
+  ff,
+  ffbase (>= 0.12.1),
+  ParallelLogger,
+  OhdsiSharing
+Suggests:
+  testthat
+NeedsCompilation: no
+RoxygenNote: 6.0.1
