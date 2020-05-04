@@ -19,7 +19,7 @@ oracleTempSchema <- NULL
 cohortTable <- 'FluDeathValidationCohortTable'
 
 # the location to save the prediction models results to:
-outputFolder <- getwd()
+outputFolder <- '~/output'
 
 # add connection details:
 options(fftempdir = 'T:/fftemp')
@@ -35,7 +35,7 @@ connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
                                                                 port = port)
 
 # Now run the study
-FluDeathValidation::execute(connectionDetails = connectionDetails,
+MortalityWithLabResults::execute(connectionDetails = connectionDetails,
                             databaseName = databaseName,
                             cdmDatabaseSchema = cdmDatabaseSchema,
                             cohortDatabaseSchema = cohortDatabaseSchema,
