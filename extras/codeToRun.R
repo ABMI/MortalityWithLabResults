@@ -16,7 +16,7 @@ cohortDatabaseSchema <- 'your work database schema'
 oracleTempSchema <- NULL
 
 # the name of the table that will be created in cohortDatabaseSchema to hold the cohorts
-cohortTable <- 'FluDeathValidationCohortTable'
+cohortTable <- 'MortalityWithLabResults'
 
 # the location to save the prediction models results to:
 outputFolder <- '~/output'
