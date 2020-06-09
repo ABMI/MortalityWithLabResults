@@ -9,7 +9,7 @@ databaseName <- 'add a shareable name for the database you are currently validat
 # add the cdm database schema with the data
 cdmDatabaseSchema <- 'your cdm database schema for the validation'
 
-# add the work database schema this requires read/write privileges 
+# add the work database schema this requires read/write privileges
 cohortDatabaseSchema <- 'your work database schema'
 
 # if using oracle please set the location of your temp schema
@@ -46,6 +46,7 @@ MortalityWithLabResults::execute(connectionDetails = connectionDetails,
                             runValidation = T,
                             packageResults = T,
                             minCellCount = 5,
-                            sampleSize = NULL)
+                            sampleSize = NULL,
+                            table1=T)
 
 # add code to submit results to study admin here

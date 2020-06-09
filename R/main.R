@@ -38,6 +38,7 @@ execute <- function(connectionDetails,
                     runValidation = T,
                     packageResults = T,
                     minCellCount = 5,
+                    table1 = T,
                     sampleSize = NULL){
 
   if (!file.exists(outputFolder))
@@ -70,6 +71,19 @@ execute <- function(connectionDetails,
                                                        validationTableTarget = cohortTable,
                                                        validationTableOutcome = cohortTable,
                                                        sampleSize = sampleSize)
+  }
+
+  if(table1){
+    ParallelLogger::logInfo("Creating table 1 for publish")
+    table1Function(cdmDatabaseSchema=cdmDatabaseSchema,
+                   oracleTempSchema=oracleTempSchema,
+                   covariateSettings,
+                   longTermStartDays = -365,
+                   shortTermStartDays = -3,
+                   connectionDetails=connectionDetails,
+                   cohortTable = cohortTable,
+                   outputLocation = outputFolder
+    )
   }
 
   # package the results: this creates a compressed file with sensitive details removed - ready to be reviewed and then
