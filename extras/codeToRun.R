@@ -19,7 +19,7 @@ oracleTempSchema <- NULL
 cohortTable <- 'MortalityWithLabResults'
 
 # the location to save the prediction models results to:
-outputFolder <- '~/output'
+outputFolder <- '~/output/MortalityWithLabResults'
 
 # add connection details:
 options(fftempdir = 'T:/fftemp')
@@ -36,17 +36,15 @@ connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
 
 # Now run the study
 MortalityWithLabResults::execute(connectionDetails = connectionDetails,
-                            databaseName = databaseName,
-                            cdmDatabaseSchema = cdmDatabaseSchema,
-                            cohortDatabaseSchema = cohortDatabaseSchema,
-                            oracleTempSchema = oracleTempSchema,
-                            cohortTable = cohortTable,
-                            outputFolder = outputFolder,
-                            createCohorts = T,
-                            runValidation = T,
-                            packageResults = T,
-                            minCellCount = 5,
-                            sampleSize = NULL,
-                            table1=T)
-
-# add code to submit results to study admin here
+                                 databaseName = databaseName,
+                                 cdmDatabaseSchema = cdmDatabaseSchema,
+                                 cohortDatabaseSchema = cohortDatabaseSchema,
+                                 oracleTempSchema = oracleTempSchema,
+                                 cohortTable = cohortTable,
+                                 outputFolder = outputFolder,
+                                 createCohorts = T,
+                                 runValidation = T,
+                                 packageResults = T,
+                                 minCellCount = 5,
+                                 sampleSize = NULL,
+                                 table1=T)

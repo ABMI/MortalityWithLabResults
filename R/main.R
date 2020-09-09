@@ -82,7 +82,7 @@ execute <- function(connectionDetails,
                    shortTermStartDays = -3,
                    connectionDetails=connectionDetails,
                    cohortTable = cohortTable,
-                   outputLocation = outputFolder
+                   outputLocation = file.path(outputFolder,databaseName)
     )
   }
 
