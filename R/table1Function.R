@@ -52,7 +52,7 @@ table1Function <- function (cdmDatabaseSchema, oracleTempSchema, covariateSettin
                                                                              useDemographicsRace = T, useDemographicsEthnicity = T,
                                                                              useConditionGroupEraLongTerm = T, useDrugGroupEraLongTerm = T,
                                                                              useCharlsonIndex = T, useChads2Vasc = T, useDcsi = T,
-                                                                             useProcedureOccurrenceShortTerm = T, shortTermStartDays = -3,
+                                                                             useProcedureOccurrenceShortTerm = T, useMeasurementValueShortTerm = T, shortTermStartDays = -3,
                                                                              longTermStartDays = -365)
   settings$aggregated <- T
   settings$cdmDatabaseSchema <- cdmDatabaseSchema
@@ -63,15 +63,16 @@ table1Function <- function (cdmDatabaseSchema, oracleTempSchema, covariateSettin
   settings$cohortId <- -1
   settings$cohortTableIsTemp <- T
   settings$connection <- connection
-  covariateData1 <- do.call(MortalityWithLabResults::getDbDefaultCovariateData::getDbCovariateData,
-                            settings)
+
+  covariateData1 <- do.call(MortalityWithLabResults::getDbDefaultCovariateData, settings)
+
   popCohort <- population[population$outcomeCount > 0, c("cohortId",
                                                          "subjectId", "cohortStartDate", "cohortStartDate")]
   colnames(popCohort)[4] <- "cohortEndDate"
   colnames(popCohort) <- SqlRender::camelCaseToSnakeCase(colnames(popCohort))
   DatabaseConnector::insertTable(connection = connection,
                                  tableName = cohortTable, data = popCohort, tempTable = T)
-  covariateData2 <- do.call(MortalityWithLabResults::getDbDefaultCovariateData::getDbCovariateData,
+  covariateData2 <- do.call(MortalityWithLabResults::getDbDefaultCovariateData,
                             settings)
   fileName <- system.file("csv", "Table1Specs.csv", package = "MortalityWithLabResults")
   tabSpec <-  read.csv(fileName, stringsAsFactors = FALSE)
