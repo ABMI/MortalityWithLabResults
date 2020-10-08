@@ -3,6 +3,15 @@ getDbDefaultCovariateData <- function (connection, oracleTempSchema = NULL, cdmD
           rowIdField = "subject_id", covariateSettings, targetDatabaseSchema, 
           targetCovariateTable, targetCovariateRefTable, targetAnalysisRefTable, 
           aggregated = FALSE) 
+          
+.toJson <- function(object) {
+  return(as.character(jsonlite::toJSON(object, force = TRUE, auto_unbox = TRUE)))
+}
+
+.fromJson <- function(json) {
+  return(jsonlite::fromJSON(json, simplifyVector = TRUE, simplifyDataFrame = FALSE))
+}
+          
 {
   if (!is(covariateSettings, "covariateSettings")) {
     stop("Covariate settings object not of type covariateSettings")
