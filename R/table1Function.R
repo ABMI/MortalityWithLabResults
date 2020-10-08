@@ -61,7 +61,7 @@ table1Function <- function (cdmDatabaseSchema, oracleTempSchema, covariateSettin
   }
   settings$cohortTable <- cohortTable
   settings$cohortId <- -1
-  settings$cohortTableIsTemp <- T
+  #settings$cohortTableIsTemp <- T
   settings$connection <- connection
 
   covariateData1 <- do.call(MortalityWithLabResults::getDbDefaultCovariateData, settings)
