@@ -64,7 +64,9 @@ table1Function <- function (cdmDatabaseSchema, oracleTempSchema, covariateSettin
   #settings$cohortTableIsTemp <- T
   settings$connection <- connection
 
-  covariateData1 <- do.call(MortalityWithLabResults::getDbDefaultCovariateData, settings)
+  #covariateData1 <- do.call(MortalityWithLabResults::getDbDefaultCovariateData, settings)
+   covariateData1 <- do.call(FeatureExtraction::getDbCovariateData(), settings)
+          
 
   popCohort <- population[population$outcomeCount > 0, c("cohortId",
                                                          "subjectId", "cohortStartDate", "cohortStartDate")]
@@ -72,8 +74,8 @@ table1Function <- function (cdmDatabaseSchema, oracleTempSchema, covariateSettin
   colnames(popCohort) <- SqlRender::camelCaseToSnakeCase(colnames(popCohort))
   DatabaseConnector::insertTable(connection = connection,
                                  tableName = cohortTable, data = popCohort, tempTable = T)
-  covariateData2 <- do.call(MortalityWithLabResults::getDbDefaultCovariateData,
-                            settings)
+  #covariateData2 <- do.call(MortalityWithLabResults::getDbDefaultCovariateData, settings)
+   covariateData2 <- do.call(FeatureExtraction::getDbCovariateData(), settings)
   fileName <- system.file("csv", "Table1Specs.csv", package = "MortalityWithLabResults")
   tabSpec <-  read.csv(fileName, stringsAsFactors = FALSE)
   tabSpec <- rbind(tabSpec, c(label = "Age in years", analysisId = 2,
