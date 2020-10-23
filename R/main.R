@@ -77,10 +77,11 @@ execute <- function(connectionDetails,
     ParallelLogger::logInfo("Creating table 1 for publish")
     table1Function(cdmDatabaseSchema=cdmDatabaseSchema,
                    oracleTempSchema=oracleTempSchema,
-                   covariateSettings,
-                   longTermStartDays = -365,
-                   shortTermStartDays = -3,
+                   #covariateSettings,
+                   #longTermStartDays = -365,
+                   #shortTermStartDays = -3,
                    connectionDetails=connectionDetails,
+                   cohortDatabaseSchema = cohortDatabaseSchema,
                    cohortTable = cohortTable,
                    outputLocation = file.path(outputFolder,databaseName)
     )
