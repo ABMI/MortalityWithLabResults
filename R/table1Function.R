@@ -60,9 +60,6 @@ table1Function <- function (cdmDatabaseSchema,
                                                               removeSubjectsWithPriorOutcome = T)
 
 
-  #covariateSettings = FeatureExtraction::createTable1CovariateSettings()
-  connection <- DatabaseConnector::connect(connectionDetails)
-
   covariateSettings <- list()
   covariateSettings <- FeatureExtraction::createDefaultCovariateSettings()
   Table1_90days <- PatientLevelPrediction::getPlpTable(cdmDatabaseSchema = cdmDatabaseSchema,
