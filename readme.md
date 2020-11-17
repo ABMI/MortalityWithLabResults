@@ -1,7 +1,7 @@
 MortalityWithLabResults
 ======================
 
-- Analytics use case(s): **Patient-Level Prediction**
+- Analytics use case(s): **Patient-Level Prediction (v4.0.2)**
 - Study type: **Clinical Application**
 - Tags: **OHDSI-Korea, FEEDER-NET**
 - Study lead: **Yongkeun Park, Jaehyeong Cho**
