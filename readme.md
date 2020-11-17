@@ -25,6 +25,7 @@ Instructions To Run Package
 library(MortalityWithLabResults)
 devtools::install_github("ohdsi/patientlevelprediction", ref="v4.0.2")
 devtools::install_github("ohdsi/featureextraction", ref="v3.0.1")
+install.packages("xgboost")
 
 # add details of your database setting:
 databaseName <- 'add a shareable name for the database you are currently validating on'
