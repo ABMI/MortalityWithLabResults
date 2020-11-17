@@ -23,6 +23,8 @@ Instructions To Run Package
 #install.packages("devtools")
 #devtools::install_github("abmi/MortalityWithLabResults")
 library(MortalityWithLabResults)
+devtools::install_github("ohdsi/patientlevelprediction", ref="v4.0.2")
+devtools::install_github("ohdsi/featureextraction", ref="v3.0.1")
 
 # add details of your database setting:
 databaseName <- 'add a shareable name for the database you are currently validating on'
@@ -71,5 +73,7 @@ MortalityWithLabResults::execute(connectionDetails = connectionDetails,
                             runValidation = T,
                             packageResults = T,
                             minCellCount = 5,
-                            sampleSize = NULL)
+                            sampleSize = NULL,
+                            table1=T
+                            )
 ```
