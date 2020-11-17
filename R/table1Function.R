@@ -32,6 +32,7 @@ table1Function <- function (cdmDatabaseSchema,
                                                               minTimeAtRisk = 3,
                                                               riskWindowStart = 0,
                                                               riskWindowEnd = 27,
+                                                              firstExposureOnly = FALSE, washoutPeriod = 3,
                                                               removeSubjectsWithPriorOutcome = T)
 
 
@@ -57,6 +58,7 @@ table1Function <- function (cdmDatabaseSchema,
                                                               minTimeAtRisk = 3,
                                                               riskWindowStart = 0,
                                                               riskWindowEnd = 87,
+                                                              firstExposureOnly = FALSE, washoutPeriod = 3,
                                                               removeSubjectsWithPriorOutcome = T)
 
 

@@ -1344,7 +1344,7 @@
       "DemographicsEthnicity": false,
       "DistinctIngredientCountLongTerm": false,
       "ConditionOccurrencePrimaryInpatientShortTerm": false,
-      "DemographicsAgeGroup": true,
+      "DemographicsAgeGroup": false,
       "DistinctProcedureCountShortTerm": false,
       "DistinctObservationCountMediumTerm": false,
       "includedCovariateConceptIds": [],
@@ -1905,7 +1905,7 @@
       "DemographicsEthnicity": false,
       "DistinctIngredientCountLongTerm": false,
       "ConditionOccurrencePrimaryInpatientShortTerm": false,
-      "DemographicsAgeGroup": true,
+      "DemographicsAgeGroup": false,
       "DistinctProcedureCountShortTerm": false,
       "DistinctObservationCountMediumTerm": false,
       "includedCovariateConceptIds": [],
@@ -17642,5 +17642,5 @@
     }
   ],
   "id": 9,
-  "packageName": "MortalityWithLabResults"
+  "packageName": "labwithdeathV7T1DSValidation"
 }
