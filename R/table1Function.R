@@ -42,6 +42,7 @@ table1Function <- function (cdmDatabaseSchema,
   covariateSettings <- list()
   covariateSettings <- FeatureExtraction::createDefaultCovariateSettings()
   covariateSettings$MeasurementValueShortTerm = TRUE
+  covariateSettings$MeasurementValueLongTerm = FALSE
   covariateSettings$shortTermStartDays <- -3
   Table1_30days <- inHospitalgetPlpTable(cdmDatabaseSchema = cdmDatabaseSchema,
                                oracleTempSchema = oracleTempSchema,
@@ -67,6 +68,7 @@ table1Function <- function (cdmDatabaseSchema,
   covariateSettings <- list()
   covariateSettings <- FeatureExtraction::createDefaultCovariateSettings()
   covariateSettings$MeasurementValueShortTerm = TRUE
+  covariateSettings$MeasurementValueLongTerm = FALSE
   covariateSettings$shortTermStartDays <- -3
   Table1_90days <- inHospitalgetPlpTable(cdmDatabaseSchema = cdmDatabaseSchema,
                                oracleTempSchema = oracleTempSchema,
